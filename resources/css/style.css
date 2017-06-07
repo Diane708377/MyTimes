@@ -1,3 +1,8 @@
+body, header, nav, div, img, span, h2, p {
+  border: 1px solid black;
+}
+
+/* This is the styling for the header and its items*/
 header {
   border-bottom: 1px solid black;
   padding: 5px 15px;
@@ -29,4 +34,26 @@ nav a {
 
 nav span {
   margin:0px 10px;
+}
+
+/* This is the styling for the main container and its items */
+.container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
