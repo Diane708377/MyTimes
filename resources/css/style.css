@@ -57,3 +57,43 @@ nav span {
 .column.small {
   width: 240px;
 }
+
+.backgroundImage {
+  display: flex;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.backgroundImage h2 {
+  font-size: 30px;
+}
+
+.backgroundImage h1, .backgroundImage h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.storyMain {
+  background-image: url("../images/img-story-main.png");
+}
+
+.story1 {
+  background-image: url("../images/img-story-1.png");
+}
+
+.story2 {
+  background-image: url("../images/img-story-2.png");
+}
+
+.story3 {
+  background-image: url("../images/img-story-3.png");
+}
