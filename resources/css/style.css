@@ -1,4 +1,4 @@
-body, header, nav, div, img, span, h2, p {
+body, header, nav, div, img, span, h2, h3, p {
   border: 1px solid black;
 }
 
@@ -132,4 +132,38 @@ p {
 
 .story3 {
   background-image: url("../images/img-story-3.png");
+}
+
+/* This is the styling of the footer and its items */
+footer {
+  display: flex;
+  align-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  padding-top: 50px;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-direction: column;
+  height: 300px;
+}
+
+.foot-nav {
+  display: inline-flex;
+  align-items: baseline;
+  margin: 0px auto;
+}
+
+.foot-nav span {
+  padding: 10px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copyrights {
+  text-align: center;
 }
